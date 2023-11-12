@@ -1,0 +1,13 @@
+version: '3'
+services:
+  ros-humble-desktop-hsr:
+    image: osrf/ros:humble-desktop
+    environment:
+      - DISPLAY=unix${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./:/home/ros2_ws/src/hsr_hardware_setup
+    devices:
+      - "/dev/dri:/dev/dri"
+    network_mode: host
+    command: tail -f /dev/null

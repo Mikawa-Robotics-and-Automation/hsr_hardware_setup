@@ -1,0 +1,37 @@
+repositories:
+  hsrb_controllers:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/hsrb_controllers
+    version: humble
+  hsrb_description:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/hsrb_description
+    version: humble
+  hsrb_meshes:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/hsrb_meshes
+    version: humble
+  hsrb_drivers:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/hsrb_drivers
+    version: humble
+  tmc_control_msgs:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/tmc_control_msgs
+    version: humble
+  openni2_camera:
+    type: git
+    url: https://github.com/ros-drivers/openni2_camera
+    version: ros2
+  exxx_control_table:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/exxx_control_table.git
+    version: humble
+  hsrb_bringup:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/hsrb_bringup.git
+    version: humble
+  hsrb_robot_hardware:
+    type: git
+    url: https://github.com/Mikawa-Robotics-and-Automation/hsrb_robot_hardware
+    version: humble
